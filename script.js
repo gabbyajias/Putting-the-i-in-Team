@@ -20,7 +20,7 @@ const teamMembers = [
       "Erik Haula, a Finnish professional ice hockey forward, has showcased his talents in the NHL, demonstrating remarkable speed, agility, and a keen scoring touch throughout his career.",
   },
   {
-    name: "nico hischier",
+    name: "Nico hischier",
     number: "13",
     position: "forward",
     age: "25",
@@ -29,7 +29,7 @@ const teamMembers = [
       "Nico Hischier, hailing from Switzerland, quickly made his mark in the NHL as the first overall pick in the 2017 draft by the New Jersey Devils. With his dynamic skill set and leadership, he's become a cornerstone player for his team, embodying the future of Swiss hockey.",
   },
   {
-    name: "luke hughes",
+    name: "Luke hughes",
     number: "43",
     position: "Defensemen",
     age: "20",
@@ -38,7 +38,7 @@ const teamMembers = [
       "Hailing from a hockey family with his brothers Jack and Quinn already making waves in the NHL, Luke Hughes made his mark in the USNTDP (United States National Team Development Program) with his smooth skating and offensive prowess from the blue line. With his combination of size, skill, and hockey IQ, he's poised to become a dynamic defenseman at the highest level of the game.",
   },
   {
-    name: "curtis lazar",
+    name: "Curtis lazar",
     number: "42 ",
     position: "Defensemen",
     age: "29",
@@ -47,7 +47,7 @@ const teamMembers = [
       ". Hailing from Canada, Lazar has journeyed through various teams in the NHL, showcasing his skills as a dependable forward with a strong work ethic and a knack for making key plays when it matters most.",
   },
   {
-    name: "simon nemec",
+    name: "Simon nemec",
     number: "20",
     position: "Defensemen",
     age: "22",
@@ -56,7 +56,7 @@ const teamMembers = [
       "Nemec has risen through the ranks, showcasing his skills in various leagues and international competitions, carving out a reputation as a promising defenseman with potential to excel at the highest levels of the game  .",
   },
   {
-    name: "alexander holtz",
+    name: "Alexander holtz",
     number: "10",
     position: "Defensemen",
     age: "22",
@@ -65,7 +65,7 @@ const teamMembers = [
       "Hailing from Saltsjö-Boo, Sweden, Holtz has made waves in junior leagues and international competitions, earning a reputation as a highly skilled sniper with the potential to become a prolific goal scorer at the professional level.",
   },
   {
-    name: "dawson mercer",
+    name: "Dawson mercer",
     number: "91",
     position: "Defensemen",
     age: "22",
@@ -74,7 +74,7 @@ const teamMembers = [
       "Hailing from Newfoundland and Labrador, Canada, Mercer has risen through the junior ranks, impressing scouts and fans alike with his dynamic playmaking ability and determination to succeed at the highest levels of the game.",
   },
   {
-    name: "jake allen",
+    name: "Jake allen",
     number: "34",
     position: "Goalie",
     age: "33",
@@ -83,7 +83,7 @@ const teamMembers = [
       "Hailing from Fredericton, New Brunswick, Allen has established himself as a reliable netminder in the NHL, showcasing his skills with the St. Louis Blues and later with the Montreal Canadiens. With his consistent performance and calming presence in the crease, he's proven himself to be a valuable asset to any team.",
   },
   {
-    name: "kaapo kakko",
+    name: "Kaapo kakko",
     number: "31",
     position: "Goalie",
     age: "23",
@@ -110,10 +110,10 @@ function generateTeamCards() {
       case "forward":
         backgroundColor = "red";
         break;
-      case "mid":
+      case "Defensemen":
         backgroundColor = "green";
         break;
-      case "defender":
+      case "Goalie":
         backgroundColor = "blue";
         break;
       default:
